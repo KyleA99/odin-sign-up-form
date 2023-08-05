@@ -18,3 +18,21 @@
     width: 60%;
     border: solid 3px blue;
 }
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15rem;
+}
+
+.banner img {
+    height: 10rem;
+}
+
+.banner-text {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: white;
+    font-size: 5rem;
+}
