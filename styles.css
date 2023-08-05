@@ -1,15 +1,20 @@
 .content-container {
+    display: flex;
     width: 100%;
+    height: 100%;
+    border: solid 3px red;
 }
 
 .content-left {
     width: 40%;
-    height: 50rem;
+    height: 60rem;
     background-image: url("/assets/images/background-night-sky.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border: solid 3px green;
 }
 
 .content-right {
     width: 60%;
+    border: solid 3px blue;
 }
