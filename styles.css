@@ -23,7 +23,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 15rem;
+    margin-top: 15rem;
+    padding: 1rem 0;
+    background-color: rgba(1, 1, 7, 0.673);
 }
 
 .banner img {
@@ -46,8 +48,8 @@
 
 .citation {
     position: absolute;
-    left: 50%; /* Move the left edge of the citation to the center of the container */
-    transform: translateX(-50%); /* Center the citation horizontally using the transform property */
+    left: 50%;
+    transform: translateX(-50%);
     bottom: -25rem;
 }
 
