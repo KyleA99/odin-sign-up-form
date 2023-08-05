@@ -1,0 +1,15 @@
+.content-container {
+    width: 100%;
+}
+
+.content-left {
+    width: 40%;
+    height: 50rem;
+    background-image: url("/assets/images/background-night-sky.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.content-right {
+    width: 60%;
+}
