@@ -7,7 +7,7 @@
 
 .content-left {
     width: 40%;
-    height: 60rem;
+    height: 55rem;
     background-image: url("/assets/images/background-night-sky.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,4 +35,23 @@
     font-weight: bold;
     color: white;
     font-size: 5rem;
+}
+
+.citation-container {
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.75rem;
+    color: white;
+}
+
+.citation {
+    position: absolute;
+    left: 50%; /* Move the left edge of the citation to the center of the container */
+    transform: translateX(-50%); /* Center the citation horizontally using the transform property */
+    bottom: -25rem;
+}
+
+.citation-container a {
+    text-decoration: none;
+    color: white;
 }
