@@ -103,6 +103,7 @@ label {
 input {
     width: 90%;
     border: solid 2px gray;
+    border-radius: 0.25rem;
     background-color: rgb(2, 2, 2);
     margin-bottom: 1rem;
     color: white;
