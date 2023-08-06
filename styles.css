@@ -35,13 +35,13 @@
 }
 
 .banner img {
-    height: 10rem;
+    height: 5rem;
 }
 
 .banner-text {
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .citation-container {
