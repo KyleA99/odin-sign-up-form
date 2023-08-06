@@ -69,8 +69,9 @@
     background-color: black;
 }
 
-.cta, .form-container {
-    /* padding: 0 4rem; */
+.cta, .form-container, .conclusion-container {
+    padding: 0 4rem;
+    box-sizing: border-box;
 }
 
 .cta {
