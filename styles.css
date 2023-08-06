@@ -105,6 +105,11 @@ input {
     margin-bottom: 1rem;
 }
 
+input:focus {
+    outline: none;
+    border: solid 2px goldenrod;
+}
+
 form {
     display: flex;
     flex-wrap: wrap;
