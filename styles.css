@@ -19,6 +19,7 @@
     background-image: url("/assets/images/background-night-sky.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
     /* border: solid 3px green; */
 }
 
