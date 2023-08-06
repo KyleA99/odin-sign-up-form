@@ -1,3 +1,7 @@
+.italicize {
+    font-style: italic;
+}
+
 .content-container {
     display: flex;
     width: 100%;
