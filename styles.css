@@ -118,3 +118,22 @@ form {
     flex-direction: column;
     width: 50%;
 }
+
+.button-container button {
+    cursor: pointer;
+    background-color: black;
+    border: solid 2px goldenrod;
+    color: goldenrod;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.button-container button:hover {
+    background-color: goldenrod;
+    border: solid 2px goldenrod;
+    color: black;
+}
