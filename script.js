@@ -3,7 +3,7 @@ function passwordConfirmation() {
     const confirmedPassword = document.getElementById("confirmed-password").value;
    
     if (password == "" || confirmedPassword == "") {
-        return ("Error: The password field is empty.");
+        return ("Error: One or more of the password fields are empty.");
     } else if (password == confirmedPassword) {
         return ("Your account has been successfully created. Please verify your email to confirm the account creation.");
     } else {
