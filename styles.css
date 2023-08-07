@@ -1,3 +1,15 @@
+:root {
+    --clr-main-primary: black;
+    --clr-main-secondary: rgba(1, 1, 7, 0.673);
+    --clr-main-tertiary: rgb(2, 2, 2);
+
+    --clr-accent-primary: white;
+    --clr-accent-secondary: lightgray;
+    --clr-accent-tertiary: goldenrod;
+    --clr-accent-quaternary: red;
+    --clr-shadow: rgb(75, 75, 75);
+}
+
 html, body {
     height: 100%;
 }
@@ -7,7 +19,7 @@ html, body {
 }
 
 .banner-text, .citation-container, .conclusion-container p {
-    color: white;
+    color: var(--clr-accent-primary);
 }
 
 .content-container {
@@ -36,7 +48,7 @@ html, body {
     justify-content: center;
     margin-top: 15rem;
     padding: 1rem 0;
-    background-color: rgba(1, 1, 7, 0.673);
+    background-color: var(--clr-main-secondary);
 }
 
 .banner img {
@@ -44,14 +56,14 @@ html, body {
 }
 
 .banner-text {
-    font-family: 'Amatic SC', cursive;
+    font-family: "Amatic SC", cursive;
     font-weight: bold;
     font-size: 3rem;
 }
 
 .citation-container {
     position: relative;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 0.75rem;
 }
 
@@ -64,12 +76,12 @@ html, body {
 
 .citation-container a {
     text-decoration: none;
-    color: white;
+    color: var(--clr-accent-primary);
 }
 
 .content-right {
     padding: 4rem 0;
-    background-color: black;
+    background-color: var(--clr-main-primary);
 }
 
 .cta, .form-container, .conclusion-container {
@@ -79,43 +91,43 @@ html, body {
 
 .cta {
     max-width: 70ch;
-    font-family: 'Ubuntu', sans-serif;
-    color: lightgray;
+    font-family: "Ubuntu", sans-serif;
+    color: var(--clr-accent-secondary);
     font-size: 1.5rem;
     margin-bottom: 4rem;
 }
 
 .form-container {
     width: 100%;
-    background-color: rgb(2, 2, 2);
-    box-shadow: 0 4px 8px -2px rgb(75, 75, 75);
+    background-color: var(--clr-main-tertiary);
+    box-shadow: 0 4px 8px -2px var(--clr-shadow);
 }
 
 .form-header {
     font-family: 'Ubuntu', sans-serif;
-    color: lightgray;
+    color: var(--clr-accent-secondary);
     font-size: 1.5rem;
     margin: 1.5rem 0;
 }
 
 label {
     display: inline-block;
-    color: lightgray;
+    color: var(--clr-accent-secondary);
     margin-bottom: 0.5rem;
 }
 
 input {
     width: 90%;
-    border: solid 2px gray;
+    border: solid 2px var(--clr-accent-secondary);
     border-radius: 0.25rem;
-    background-color: rgb(2, 2, 2);
+    background-color: var(--clr-main-tertiary);
     margin-bottom: 1rem;
-    color: white;
+    color: var(--clr-accent-primary);
 }
 
 input:focus {
     outline: none;
-    border: solid 2px goldenrod;
+    border: solid 2px var(--clr-accent-tertiary);
 }
 
 form {
@@ -135,14 +147,14 @@ form {
 }
 
 .passwordMatchContent {
-    color: red;
+    color: var(--clr-accent-quaternary);
 }
 
 .button-container button {
     cursor: pointer;
-    background-color: black;
-    border: solid 2px goldenrod;
-    color: goldenrod;
+    background-color: var(--clr-main-primary);
+    border: solid 2px var(--clr-accent-tertiary);
+    color: var(--clr-accent-tertiary);
     padding: 8px 32px;
     text-align: center;
     text-decoration: none;
@@ -153,9 +165,9 @@ form {
 }
 
 .button-container button:hover {
-    background-color: goldenrod;
-    border: solid 2px goldenrod;
-    color: black;
+    background-color: var(--clr-accent-tertiary);
+    border: solid 2px var(--clr-accent-tertiary);
+    color: var(--clr-main-primary);
 }
 
 .conclusion-container {
@@ -164,11 +176,11 @@ form {
 
 .conclusion-container a {
     text-decoration: none;
-    color: goldenrod;
+    color: var(--clr-accent-tertiary);
 }
 
 .conclusion-container a:hover {
-    color: white;
+    color: var(--clr-accent-primary);
 }
 
 @media (360px <= width <= 730px) {
