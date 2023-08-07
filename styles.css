@@ -19,7 +19,7 @@ html, body {
 
 .content-left {
     width: 40%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("./assets/images/background-night-sky.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,6 +177,7 @@ form {
     }
 
     .content-left {
+        min-height: 0;
         height: 25rem;
         width: 100%;
     }
