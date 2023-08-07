@@ -8,6 +8,9 @@
     --clr-accent-tertiary: goldenrod;
     --clr-accent-quaternary: red;
     --clr-shadow: rgb(75, 75, 75);
+
+    --ff-primary: "Ubuntu", sans-serif;
+    --ff-secondary: "Amatic SC", cursive;
 }
 
 html, body {
@@ -56,14 +59,14 @@ html, body {
 }
 
 .banner-text {
-    font-family: "Amatic SC", cursive;
+    font-family: var(--ff-secondary);
     font-weight: bold;
     font-size: 3rem;
 }
 
 .citation-container {
     position: relative;
-    font-family: "Ubuntu", sans-serif;
+    font-family: var(--ff-primary);
     font-size: 0.75rem;
 }
 
@@ -91,7 +94,7 @@ html, body {
 
 .cta {
     max-width: 70ch;
-    font-family: "Ubuntu", sans-serif;
+    font-family: var(--ff-primary);
     color: var(--clr-accent-secondary);
     font-size: 1.5rem;
     margin-bottom: 4rem;
@@ -104,7 +107,7 @@ html, body {
 }
 
 .form-header {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--ff-primary);
     color: var(--clr-accent-secondary);
     font-size: 1.5rem;
     margin: 1.5rem 0;
