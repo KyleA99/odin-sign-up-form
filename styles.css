@@ -129,6 +129,10 @@ form {
     width: 50%;
 }
 
+.passwordMatchContent {
+    color: white;
+}
+
 .button-container button {
     cursor: pointer;
     background-color: black;
