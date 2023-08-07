@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <main>
@@ -39,36 +40,36 @@
                         <div class="row">
                             <div class="column">
                                 <label for="first_name">First Name:</label>
-                                <input type="text" id="first_name" name="first_name" placeholder="First...">
+                                <input type="text" id="first-name" name="first-name" placeholder="First...">
                             </div>
 
                             <div class="column">
                                 <label for="last_name">Last Name:</label>
-                                <input type="text" id="last_name" name="last_name" placeholder="Last...">
+                                <input type="text" id="last-name" name="last-name" placeholder="Last...">
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="column">
-                                <label for="user_email">Email Address:</label>
-                                <input type="text" id="user_email" name="email" placeholder="example@domain.com">
+                                <label for="user-email">Email Address:</label>
+                                <input type="text" id="user-email" name="email" placeholder="example@domain.com">
                             </div>
 
                             <div class="column">
-                                <label for="phone_number">Phone Number:</label>
-                                <input type="text" id="phone_number" name="phone_number" placeholder="888-888-8888">
+                                <label for="phone-number">Phone Number:</label>
+                                <input type="text" id="phone-number" name="phone-number" placeholder="888-888-8888">
                             </div>
                         </div>
                         
                         <div class="row">
                             <div class="column">
-                                <label for="user_password">Password:</label>
-                                <input type="password" id="user_password" name="password">
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" name="password">
                             </div>
 
                             <div class="column">
                                 <label for="confirmed_password">Confirm Password:</label>
-                                <input type="password" id="confirmed_password" name="confirmed_password">
+                                <input type="password" id="confirmed-password" name="confirmed_password">
                             </div>
                         </div>
                     </form>
@@ -76,7 +77,7 @@
 
                 <div class="conclusion-container">
                     <div class="button-container">
-                        <button>Create Account</button>
+                        <button type="submit" onclick="passwordConfirmation()">Create Account</button>
                     </div>
 
                     <p>Already Have an account? <a href="">Log in</a></p>
