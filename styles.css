@@ -130,7 +130,7 @@ form {
 }
 
 .passwordMatchContent {
-    color: white;
+    color: red;
 }
 
 .button-container button {

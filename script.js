@@ -16,6 +16,6 @@ function updatePasswordConfirmation() {
     const passwordMatchContent = document.createElement("div");
     passwordMatchContent.classList.add("passwordMatchContent");
     passwordMatchContent.textContent = passwordConfirmation();
-    passwordMatchDisplay.innerHTML = ''; // Clear previous content
+    passwordMatchDisplay.innerHTML = "";
     passwordMatchDisplay.appendChild(passwordMatchContent);
 }
