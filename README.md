@@ -17,5 +17,6 @@ This project was completed as part of The Odin Project, however, I decided to ad
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS psuedo-classes
 - Vanilla JavaScript
 - JavaScript DOM
