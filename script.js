@@ -1,3 +1,7 @@
+/**
+ * Validates password confirmation and returns a message based on the validation result.
+ * @returns {string} The validation result message.
+ */
 function passwordConfirmation() {
     const password = document.getElementById("password").value;
     const confirmedPassword = document.getElementById("confirmed-password").value;
@@ -11,6 +15,9 @@ function passwordConfirmation() {
     }
 }
 
+/**
+ * Updates the password confirmation display based on the validation result.
+ */
 function updatePasswordConfirmation() {
     const passwordMatchDisplay = document.querySelector("#password-match-display");
     const passwordMatchContent = document.createElement("div");
